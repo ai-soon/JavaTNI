@@ -50,7 +50,7 @@ class CoffeeShop {
     }
 
     public static Espresso orderEspresso(Scanner sc) {
-        System.out.print("Enter a size (S/M/L): ");
+        System.out.print("Enter a size: ");
         String size = sc.nextLine().trim().toUpperCase();
 
         System.out.print("Press 'y' or 'Y' for adding a shot: ");
@@ -68,7 +68,7 @@ class CoffeeShop {
     }
 
     public static Frappuccino orderFrappuccino(Scanner sc) {
-        System.out.print("Enter a size (S/M/L): ");
+        System.out.print("Enter a size: ");
         String size = sc.nextLine().trim().toUpperCase();
 
         System.out.print("Do you want to add whipped cream [y/Y]? ");
